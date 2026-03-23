@@ -1,3 +1,8 @@
+<style>
+  header { display: none; }
+</style>
+
+
 # Charts
 Click here to view the chart:
 
