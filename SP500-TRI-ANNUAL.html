@@ -6,6 +6,7 @@
         body, html {
             height: 100%;
             margin: 0;
+            padding: 0;
             display: flex;
             flex-direction: column; /* Stack title and chart vertically */
             align-items: center;    /* Center horizontally */
@@ -22,12 +23,18 @@
             margin-bottom: 20px; /* Space between title and chart */
         }
 
+        .chart-container {
+            width: 100vw;
+            height: 90vh; /* Made it higher as you requested */
+            display: flex;
+            justify-content: center; /* Centers the content of the iframe */
+        }
+
         iframe {
             border: none;
-            width: 100vw;   /* Adjust width as needed */
-            height: 80vh; /* Takes up 60% of the screen height */
+            width: 100%;   /* Fills the container */
+            height: 100%;  /* Fills the container */
             display: block;
-            margin: 0 auto;
         }
     </style>
 </head>
