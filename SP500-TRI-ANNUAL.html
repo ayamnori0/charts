@@ -13,7 +13,7 @@
             justify-content: flex-start; /* vertically */
             font-family: sans-serif;
             padding-top: 1vh;
-            background-color: #e3fafa;
+            background-color: #edfcfc;
         }
         
         h1 {
@@ -26,8 +26,8 @@
         .chart-container {
             width: 100vw;
             height: 90vh; /* Made it higher as you requested */
-            display: flex;
-            justify-content: center; /* Centers the content of the iframe */
+            position: relative; /* Needed for the absolute positioning below */
+            overflow: hidden;
         }
 
         iframe {
@@ -35,6 +35,10 @@
             width: 100%;   /* Fills the container */
             height: 100%;  /* Fills the container */
             display: block;
+            /* THIS PART CENTERS THE CONTENT INSIDE */
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
         }
     </style>
 </head>
