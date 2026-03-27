@@ -1,1 +1,0 @@
-# Charts in HTML format
