@@ -9,20 +9,24 @@
             display: flex;
             flex-direction: column; /* Stack title and chart vertically */
             align-items: center;    /* Center horizontally */
-            justify-content: center; /* Center vertically */
+            justify-content: flex-start; /* vertically */
             font-family: sans-serif;
+            padding-top: 5vh;
+            background-color: #e3f7ff;
         }
 
         h1 {
             color: darkblue;
+            text-align: center;
             font-weight: bold;
             margin-bottom: 20px; /* Space between title and chart */
         }
 
         iframe {
             border: none;
-            width: 80%;   /* Adjust width as needed */
-            height: 60vh; /* Takes up 60% of the screen height */
+            width: 95%;   /* Adjust width as needed */
+            height: 80vh; /* Takes up 60% of the screen height */
+            max-width: 1200px; /* Prevents it from getting too wide on desktops */
         }
     </style>
 </head>
