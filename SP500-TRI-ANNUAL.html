@@ -23,32 +23,20 @@
             margin-bottom: 20px; /* Space between title and chart */
         }
 
-        .chart-container {
-            width: 100vw;
-            height: 90vh; /* Made it higher as you requested */
-            position: relative; /* Needed for the absolute positioning below */
-            overflow: hidden;
-        }
-
         iframe {
             border: none;
-            width: 100%;   /* Fills the container */
-            height: 100%;  /* Fills the container */
+            width: 100%;
+            height: 100%;
             display: block;
-            /* THIS PART CENTERS THE CONTENT INSIDE */
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-        }
+            margin: 0 auto; /* Standard centering */
+         }
     </style>
 </head>
 <body>
 
     <h1>hello</h1>
 
-    <div class="chart-container">
     <iframe src="source/ch_SP500_TRI_annual.html"></iframe>
-    </div>
 
 </body>
 </html>
