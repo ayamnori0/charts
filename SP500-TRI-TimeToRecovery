@@ -26,13 +26,13 @@
         iframe {
                border: 0px solid darkblue; 
                /* border-radius: 8px; */
-               width: 1250px;  /* Set this to the actual width of your chart */
-               height: 700px;   
+               width: 1016px;  /* Set this to the actual width of your chart */
+               height: 516px;   
                display: block;
         }
 
         .footer-text {
-                     width: 1250px;      /* Match this exactly to your iframe width */
+                     width: 1016px;      /* Match this exactly to your iframe width */
                      max-width: 95vw;    /* Match this to your iframe max-width */
                      margin-top: 0px; 
                      margin-left: 15px;
@@ -44,7 +44,7 @@
 </head>
 <body>
 
-     <iframe src="source/ch_SP500_TRI_TimeToRecovery.html"></iframe>
+     <iframe src="source/ch_SP500_TRI_annual.html"></iframe>
 
      <p class="footer-text">
      <strong>Data Source:</strong> Yahoo Finance.<br>
